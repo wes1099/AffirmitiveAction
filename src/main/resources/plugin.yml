@@ -1,0 +1,6 @@
+name: AffirmitiveAction
+version: ${project.version}
+main: me.wesm.affirmitiveaction.Affirmitiveaction
+api-version: 1.13
+authors: [wes1099]
+description: annhiliating discriminatory beings
