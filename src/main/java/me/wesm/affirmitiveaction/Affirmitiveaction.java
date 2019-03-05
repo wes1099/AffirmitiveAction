@@ -21,7 +21,7 @@ public final class Affirmitiveaction extends JavaPlugin implements Listener {
         String msg = event.getMessage();
         Player player = event.getPlayer();
         if (msg.contains("nigger")){
-            player.setHealth(1);
+            player.setHealth(0.01);
             player.getWorld().strikeLightning(player.getLocation());
         }
     }
